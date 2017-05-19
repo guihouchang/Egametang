@@ -12,12 +12,15 @@
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
-    <TargetFrameworkProfile></TargetFrameworkProfile>
-    <CompilerResponseFile></CompilerResponseFile>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <CompilerResponseFile>
+    </CompilerResponseFile>
     <UnityProjectType>GamePlugins:3</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
     <UnityVersion>2017.1.0b5</UnityVersion>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <LangVersion>6</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -85,44 +88,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Plugins\Base\DoubleMap.cs" />
-    <Compile Include="Assets\Plugins\Base\Helper\ArrayHelper.cs" />
-    <Compile Include="Assets\Plugins\Base\Helper\ByteHelper.cs" />
-    <Compile Include="Assets\Plugins\Base\Helper\EnumHelper.cs" />
-    <Compile Include="Assets\Plugins\Base\Helper\FileHelper.cs" />
-    <Compile Include="Assets\Plugins\Base\Helper\IdGenerater.cs" />
-    <Compile Include="Assets\Plugins\Base\Helper\MD5Helper.cs" />
-    <Compile Include="Assets\Plugins\Base\Helper\MethodInfoHelper.cs" />
-    <Compile Include="Assets\Plugins\Base\Helper\MongoHelper.cs" />
-    <Compile Include="Assets\Plugins\Base\Helper\NetHelper.cs" />
-    <Compile Include="Assets\Plugins\Base\Helper\ProtobufHelper.cs" />
-    <Compile Include="Assets\Plugins\Base\Helper\RandomHelper.cs" />
-    <Compile Include="Assets\Plugins\Base\Helper\StringHelper.cs" />
-    <Compile Include="Assets\Plugins\Base\Helper\TimeHelper.cs" />
-    <Compile Include="Assets\Plugins\Base\Helper\ZipHelper.cs" />
-    <Compile Include="Assets\Plugins\Base\Log.cs" />
-    <Compile Include="Assets\Plugins\Base\LogType.cs" />
-    <Compile Include="Assets\Plugins\Base\MultiMap.cs" />
-    <Compile Include="Assets\Plugins\Base\Network\AChannel.cs" />
-    <Compile Include="Assets\Plugins\Base\Network\AService.cs" />
-    <Compile Include="Assets\Plugins\Base\Network\TNet\PacketParser.cs" />
-    <Compile Include="Assets\Plugins\Base\Network\TNet\TBuffer.cs" />
-    <Compile Include="Assets\Plugins\Base\Network\TNet\TChannel.cs" />
-    <Compile Include="Assets\Plugins\Base\Network\TNet\TPoller.cs" />
-    <Compile Include="Assets\Plugins\Base\Network\TNet\TService.cs" />
-    <Compile Include="Assets\Plugins\Base\Network\TNet\TSocket.cs" />
-    <Compile Include="Assets\Plugins\Base\Network\UNet\Library.cs" />
-    <Compile Include="Assets\Plugins\Base\Network\UNet\NativeMethods.cs" />
-    <Compile Include="Assets\Plugins\Base\Network\UNet\NativeStructs.cs" />
-    <Compile Include="Assets\Plugins\Base\Network\UNet\UAddress.cs" />
-    <Compile Include="Assets\Plugins\Base\Network\UNet\UChannel.cs" />
-    <Compile Include="Assets\Plugins\Base\Network\UNet\UPacket.cs" />
-    <Compile Include="Assets\Plugins\Base\Network\UNet\UPoller.cs" />
-    <Compile Include="Assets\Plugins\Base\Network\UNet\UService.cs" />
-    <Compile Include="Assets\Plugins\Base\Network\UNet\USocket.cs" />
-    <Compile Include="Assets\Plugins\Base\Network\UNet\USocketManager.cs" />
-    <Compile Include="Assets\Plugins\Base\QueueDictionary.cs" />
-    <Compile Include="Assets\Plugins\Base\TryLocker.cs" />
     <Compile Include="Assets\Plugins\MongoDB\MongoDB.Bson\BsonConstants.cs" />
     <Compile Include="Assets\Plugins\MongoDB\MongoDB.Bson\BsonDefaults.cs" />
     <Compile Include="Assets\Plugins\MongoDB\MongoDB.Bson\BsonExtensionMethods.cs" />
